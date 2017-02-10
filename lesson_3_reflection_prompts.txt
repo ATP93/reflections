@@ -20,14 +20,14 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    That it's posible to compare local version with last known remote version of file without neccecity of merging them straight away.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would use SVN, but I find Git/GitHub more comfortable.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When working on particular feature that is not on the master, or is beeing developed/modified on a branch.
