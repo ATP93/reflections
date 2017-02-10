@@ -3,17 +3,23 @@ It creates hidden .git directory with git repository setups and config files - t
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+It is something in between of those. It contains files from working directory, that are going to be commited to repository. It helps to distinct/choose the files in working directory that user wishes to store/track.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can personally choose what files should be included in commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When working on new feature, or several independent features or multiple versions of same thing.
 
 How do the diagrams help you visualize the branch structure?
+To see order and reacheability of commits and finding unreachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging changes from various branches into the same branch. In order to be albe to distinguish what commits were done on which branch (and what changes are realted to each other).
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Auto: saves time but cant always properly resolve conflicts. Takes more time, but better controll over conflict resolution.
